@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+@font-face{
+    font-family: "oswald";
+    src: url("font/Oswald/Oswald-Regular.ttf");
+    font-weight: 500;
+}
+@font-face{
+    font-family: "oswald-light";
+    src: url(font/Oswald/Oswald-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'roboto';
+    text-transform: uppercase;
+}
+
+#bio-header {
+    color: brown;
+    font-family: "oswald";
+    
+}
+#skills-header {
+    color: greenyellow
+}
+
+.content {
+    color:rgb(31, 31, 31);
+    font-family: 'Roboto';
+    text-align: justify;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+
+
+}
+.bold {
+
+    font-weight: bold;
+}
+
+.img-div {
+    background-color: lightblue;
+    margin: 20px;
+    padding: 30px;
+    position: relative;
+    }
+    .img-div-dark {
+        padding: 50px;
+        margin: 50px;
+        border: solid chocolate 3px;
+    background-color: darkgreen;
+
+
+}
+p {
+    color:rgb(25, 43, 139);
+    font-family: 'oswald';
+    line-height: 16px;
+    font-size: 16px;
+    font-weight:lighter;
+    text-transform: uppercase;
+}
+
+
+img{
+    width: 14.4%;
+    box-shadow: 3px 3px 20px black;
+    margin: 1%;
+}
+
+#img-1 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}

@@ -1,0 +1,27 @@
+#colorDiv{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 130, 100, 0.8)
+}
+
+
+html{
+
+    background: url(../img/pattern.jpg) no-repeat left top;
+
+}
+
+
+/*
+2es számrendszer: 01
+3as számrendszer: 012
+10es számrendszer: 0123456789
+16os számrendszer: 0123456789ABCDEF
+
+255(10) =FF (16)
+(10) 255 = 2*100 + 5*10 + 5*1
+(16) FF = F*16 + F*1 =15*16 + 15*1 =255
+
+rgb (255, 255, 255) =#FFFFFF
+*/
